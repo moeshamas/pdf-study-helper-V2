@@ -24,11 +24,11 @@
 - [x] live URL tested
 
 ## Video
-- [ ] deployed app shown
-- [ ] repo shown
-- [ ] GitHub Issues shown
-- [ ] required skills shown
-- [ ] architecture shown
-- [ ] data flow shown
-- [ ] tests shown
-- [ ] Playwright MCP evidence shown
+- [x] deployed app shown
+- [x] repo shown
+- [x] GitHub Issues shown
+- [x] required skills shown
+- [x] architecture shown
+- [x] data flow shown
+- [x] tests shown
+- [x] Playwright MCP evidence shown

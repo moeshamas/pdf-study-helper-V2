@@ -46,3 +46,11 @@ Bronze → Silver → Gold → Retrieval → Reasoning → UI
 npm install
 npm run process:pdfs
 npm run dev
+
+---
+
+## 🌐 Live Demo
+
+Deployed on Vercel:
+
+👉 https://pdf-study-helper-me9mijkbp-moeshamas-projects.vercel.app
