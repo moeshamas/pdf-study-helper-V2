@@ -3,8 +3,8 @@
 ## Planning
 - [x] Project scope clearly defined
 - [x] grill-me evidence saved
-- [ ] PRD issue created
-- [ ] child issues created from PRD
+- [x] PRD issue created
+- [x] child issues created from PRD
 
 ## Build
 - [ ] ingestion works
@@ -12,7 +12,7 @@
 - [ ] storage works
 - [ ] reasoning layer works
 - [ ] UI works
-- [ ] unit tests pass
+- [x] unit tests pass
 - [ ] Playwright test passes
 - [ ] Playwright MCP evidence saved
 - [ ] architecture improvement evidence saved
