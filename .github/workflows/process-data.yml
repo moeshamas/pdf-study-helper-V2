@@ -1,0 +1,37 @@
+name: Process PDF Data
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "data/bronze/**"
+      - "scripts/process-pdfs.ts"
+      - "lib/chunking.ts"
+      - ".github/workflows/process-data.yml"
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run ETL
+        run: npm run process:pdfs
+
+      - name: Upload processed artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: processed-data
+          path: |
+            data/silver
+            data/gold/chunks.json
