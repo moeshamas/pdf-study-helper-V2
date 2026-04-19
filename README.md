@@ -53,4 +53,5 @@ npm run dev
 
 Deployed on Vercel:
 
-👉 https://pdf-study-helper-me9mijkbp-moeshamas-projects.vercel.app
+👉 https://pdf-study-helper-v2.vercel.app/
+👉 https://pdf-study-helper-v2-git-main-moeshamas-projects.vercel.app/
