@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 
 const HF_API_KEY = process.env.HF_API_KEY;
-const MODEL = "mistralai/Mistral-7B-Instruct-v0.2";
+const MODEL = "HuggingFaceH4/zephyr-7b-beta";
 
 export async function POST(req: Request) {
   try {
