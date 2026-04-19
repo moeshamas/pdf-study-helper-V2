@@ -39,3 +39,8 @@
 - [x] alternative architecture explained
 - [x] tradeoffs discussed
 - [x] missing capability explained
+
+## Assignment 6 - Evaluation Setup
+- [x] I included at least 5 representative cases
+- [x] I included at least 2 failure cases
+- [x] I defined a lightweight baseline

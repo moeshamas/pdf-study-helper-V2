@@ -1,0 +1,37 @@
+[
+  {
+    "id": "rep-1",
+    "type": "representative",
+    "question": "What does EC2 do?",
+    "expected_behavior": "The system should explain that EC2 provides scalable virtual servers or compute capacity in the cloud.",
+    "why_included": "This is a direct factual question that should be answered well if the retrieval step finds the correct chunk."
+  },
+  {
+    "id": "rep-2",
+    "type": "representative",
+    "question": "What is an AMI?",
+    "expected_behavior": "The system should explain that an AMI is an Amazon Machine Image used to launch instances.",
+    "why_included": "This checks whether the system can answer a key terminology question from the PDF content."
+  },
+  {
+    "id": "rep-3",
+    "type": "representative",
+    "question": "How do you launch an EC2 instance?",
+    "expected_behavior": "The system should provide a concise process-oriented answer based on the retrieved PDF chunks.",
+    "why_included": "This tests whether the system can answer a procedural question rather than just define a term."
+  },
+  {
+    "id": "rep-4",
+    "type": "representative",
+    "question": "What is the purpose of security groups?",
+    "expected_behavior": "The system should explain that security groups control inbound and outbound traffic for instances.",
+    "why_included": "This checks whether the system can retrieve and explain a networking-related concept."
+  },
+  {
+    "id": "rep-5",
+    "type": "representative",
+    "question": "What is the difference between EC2 and an AMI?",
+    "expected_behavior": "The system should distinguish between a compute service and the image/template used to launch instances.",
+    "why_included": "This tests whether the system can compare two related concepts rather than answer a single-fact prompt."
+  }
+]

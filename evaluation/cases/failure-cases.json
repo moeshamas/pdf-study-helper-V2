@@ -1,0 +1,16 @@
+[
+  {
+    "id": "fail-1",
+    "type": "failure",
+    "question": "What are the disadvantages of EC2 compared with Azure virtual machines?",
+    "expected_behavior": "The system should clearly indicate that it does not have enough supporting context if that comparison is not present in the processed PDFs.",
+    "why_included": "This tests whether the system avoids unsupported claims when the answer is outside the document scope."
+  },
+  {
+    "id": "fail-2",
+    "type": "failure",
+    "question": "Can you summarize the graph showing performance trends in the PDF?",
+    "expected_behavior": "The system should fail gracefully or give a weak answer, because the current pipeline extracts text but does not truly parse graph visuals into structured data.",
+    "why_included": "This tests a known pipeline limitation: graph and figure understanding is not fully implemented in this proof of concept."
+  }
+]
