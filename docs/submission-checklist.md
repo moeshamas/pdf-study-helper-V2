@@ -32,3 +32,10 @@
 - [x] data flow shown
 - [x] tests shown
 - [x] Playwright MCP evidence shown
+
+## Assignment 6 - Architecture
+- [x] system classified correctly (retrieval-first)
+- [x] justification provided
+- [x] alternative architecture explained
+- [x] tradeoffs discussed
+- [x] missing capability explained
