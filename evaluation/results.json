@@ -1,0 +1,94 @@
+[
+    {
+  "id": "rep-1",
+  "question": "What does EC2 do?",
+  "answer": "EC2 (Amazon Elastic Compute Cloud) provides virtual machines—called EC2 instances—that run in the AWS cloud and allow users to launch, configure, and manage scalable compute resources.",
+  "sources": [
+    "EC2 provides virtual machines—called EC2 instances—that run in the AWS cloud.",
+    "You can launch instances of any size, choose the operating system, and manage traffic to and from them."
+  ],
+  "scores": {
+    "output_quality": 2,
+    "end_to_end": "success",
+    "retrieval": "good"
+  }
+},
+{
+  "id": "rep-2",
+  "question": "What is an AMI?",
+  "answer": "An AMI (Amazon Machine Image) is a template used to launch an EC2 instance, including an operating system and pre-installed software.",
+  "sources": [
+    "An AMI is a template for launching an Amazon EC2 instance and includes a Windows or Linux operating system.",
+    "Often also has some software pre-installed and serves as the source for creating a new EC2 instance."
+  ],
+  "scores": {
+    "output_quality": 2,
+    "end_to_end": "success",
+    "retrieval": "good"
+  }
+},
+{
+  "id": "rep-3",
+  "question": "How do you launch an EC2 instance?",
+  "answer": "You launch an EC2 instance using the AWS Management Console’s Launch Instance Wizard by selecting an AMI, choosing an instance type, configuring networking, attaching roles if needed, and setting storage and other options.",
+  "sources": [
+    "Launch an EC2 instance by using the AWS Management Console’s Launch Instance Wizard.",
+    "Select an AMI, choose an instance type, configure network settings, and specify storage options."
+  ],
+  "scores": {
+    "output_quality": 2,
+    "end_to_end": "success",
+    "retrieval": "good"
+  }
+},
+{
+  "id": "rep-4",
+  "question": "What is the purpose of security groups?",
+  "answer": "Security groups act as virtual firewalls for instances, controlling inbound and outbound traffic based on defined rules for sources, ports, and protocols.",
+  "sources": [
+    "Security groups serve as virtual firewalls for your instances.",
+    "They define which sources, ports, and protocols are allowed to send or receive traffic."
+  ],
+  "scores": {
+    "output_quality": 2,
+    "end_to_end": "success",
+    "retrieval": "partial"
+  }
+},
+{
+  "id": "rep-5",
+  "question": "What is the difference between EC2 and an AMI?",
+  "answer": "EC2 is the AWS compute service that runs virtual machines, while an AMI (Amazon Machine Image) is a template used to launch those instances. EC2 provides the runtime environment, and the AMI provides the starting image.",
+  "sources": [
+    "EC2 provides virtual machines—referred to as EC2 instances—in the cloud.",
+    "An AMI is a template used to create an EC2 instance and includes an operating system and pre-installed software."
+  ],
+  "scores": {
+    "output_quality": 2,
+    "end_to_end": "success",
+    "retrieval": "good"
+  }
+},
+{
+  "id": "fail-1",
+  "question": "What are the disadvantages of EC2 compared with Azure virtual machines?",
+  "answer": "The system could not answer because the provided context does not contain information comparing Amazon EC2 with Azure virtual machines.",
+  "sources": [],
+  "scores": {
+    "output_quality": 2,
+    "end_to_end": "success",
+    "retrieval": "poor"
+  }
+},
+{
+  "id": "fail-2",
+  "question": "Can you summarize the graph showing performance trends in the PDF?",
+  "answer": "The system could not summarize the graph because the provided excerpts do not contain any description of performance trends.",
+  "sources": [],
+  "scores": {
+    "output_quality": 2,
+    "end_to_end": "success",
+    "retrieval": "poor"
+  }
+}
+]
